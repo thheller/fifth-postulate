@@ -3,13 +3,6 @@
   :url "https://github.com/mfikes/fifth-postulate"
   :license {:name "Eclipse Public License"
             :url "https://github.com/mfikes/fifth-postulate/blob/master/LICENSE"}
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [org.clojure/clojurescript "1.9.562"]]
-  :plugins [[lein-cljsbuild "1.1.6"]]
-  :cljsbuild {:builds {:single
-                       {:source-paths ["src"]
-                        :compiler     {:parallel-build false}}
-                       :parallel
-                       {:source-paths ["src"]
-                        :compiler     {:parallel-build true}}}}
+  :dependencies [[org.clojure/clojure "1.9.0-beta4"]
+                 [org.clojure/clojurescript "1.9.946"]]
   :jvm-opts ["-Xmx8g"])
